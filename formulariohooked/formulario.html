@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario Hooked</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="bootstrap-custom 3.css" rel="stylesheet">
+</head>
+
+<body>
+	<header class="col-xl-12">
+		
+		<div>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">NUEVOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">MÁS VENDIDOS</a>
+      </li>
+		 <li class="nav-item">
+        <a class="nav-link" href="#">CLASICOS</a>
+      </li>
+		 <li class="nav-item">
+        <a class="nav-link" href="#">CONVERTIDOS A PELICULA</a>
+      </li>
+		 <li class="nav-item">
+        <a class="nav-link" href="#">CONTACTO</a>
+      </li>
+</ul>
+		</div>
+			</nav>
+				
+		<div class="container">
+		<img src="img/hookedlogo.png" alt="hookedlogo" class="img-fluid">
+		</div>
+	</div>
+		</header>
+	
+	
+	<section id="sec-form">
+  <div class="container">
+	
+
+      <form name="form-registro" method="post" action="form.html" class="col-md-6 mx-auto">
+		  <div class="row">
+		  <div class="form-group col-md-6 col-sm-6 col-xs-12">
+		     <label>Nombre</label>
+			  <input type="text" name="nombre" id="nombre" class="form-control" required maxlength="40" placeholder="Ingrese su nombre">
+		  </div>
+		  
+		  <div class="form-group col-md-6 col-sm-6 col-xs-12">
+		     <label>Apellido</label>
+			  <input type="text" name="apellido" id="apellido" class="form-control" required placeholder="Ingrese su apellido">
+	      </div>
+		  </div>
+			  
+		  <div class="form-group">
+		     <label>Edad</label>
+			  <input type="number" name="edad" id="edad" class="form-control" placeholder="Ingrese su edad">
+		  </div>  
+		  
+		  <div class="form-group">
+		     <label>Direccion</label>
+			  <textarea name="direccion" rows="6" class="form-control" placeholder="Ingrese su direccion"></textarea>
+		  </div>
+		  
+		  <div class="row">
+			 <div>
+		    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+			  <label>Pais</label>
+				<select name="pais" id="pais" class="form-control" placeholder="Ingrese su pais">
+				  <option value="HND">Honduras</option>	
+			      <option value="GTM">Guatemala</option>
+			      <option value="MEX">Mexico</option>
+			      <option value="USA">Estados Unidos</option>
+			  </select>
+				
+				<div class="form-group col-md-6 col-sm-6 col-xs-12">
+				  <label placeholder="Ingrese su genero">Genero</label>
+					<div class="radio">
+					   
+					  <label>
+						Masculino
+						 <input type="radio" name="genero" id="masculino" value="Masculino" checked>
+					  </label>
+						
+						<label>
+						Femenino
+						 <input type="radio" name="genero" id="femenino" value="femenino">
+					  </label>
+					  </div>
+					
+					</div>
+					
+				</div>
+				
+			</div>
+			  
+		  </div>
+		  
+		 <div class="form-group">
+		  <button type="button" class="btn btn-primary">Enviar Datos</button>
+		  <button type="rset" class="btn btn-light">Cancelar</button>
+		 </div>
+		  
+	  </form>
+	  
+  </div>		
+</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<footer>
+		<div class="container">
+		
+			<h3>recibe nuestros correos</h3> 
+			<p>Si deseas recibir información sobre nuevos libros o datos curiosos <br> del mundo de la literatura no dudes en suscribirte.</p>
+		
+			
+		<div class="row">
+			<articles class="col-md-6 col-sm-12 col-xs-12" id="izquierda">
+				
+				<div class="row">
+				<articles class="col-md-6 col-sm-12 col-xs-12">
+				<h3>contáctanos</h3>
+					<ul>
+						<li>(504)9675-0093</li>
+						<li>2347-8954</li>
+						<li>hooked@libroshn.com</li>
+					</ul>
+				</articles>
+				
+			    <articles class="col-md-6 col-sm-12 col-xs-12">
+				<h3>ubicación</h3>
+				<p>Lomas del Mayab, edificio Azotea, local #9</p>
+				</articles>
+				</div>
+				
+			</articles>
+			
+			<article class="col-md-6 col-sm-12 col-xs-12" id="derecha">
+				<h3>síguenos en</h3>
+				<img src="img/logossm.png" alt="logossocialmedia" class="img-fluid2">
+			    </article>
+		</div>
+			
+			
+		</div>
+	</footer>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>
